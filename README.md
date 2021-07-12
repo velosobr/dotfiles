@@ -14,7 +14,7 @@ NVM and NODE - https://linuxize.com/post/how-to-install-node-js-on-ubuntu-18.04/
 
 More about dotfiles - https://github.com/webpro/awesome-dotfiles
 
-.gitconfig = 
+.gitconfig - 
 
 
 ```gitignore
@@ -31,4 +31,6 @@ s = !git status -s
 l = !git log --pretty=format:'%C(blue)%h%C(red)%d  %C(white)%s - %C(cyan)%cn, %C(green)%cr'
 t = !sh -c 'git tag -a $1 -m $1'
 amend = !git add --all && git commit --amend --no-edit
+[push]
+followTags = true
 ```
