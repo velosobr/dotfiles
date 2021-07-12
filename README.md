@@ -17,7 +17,7 @@ More about dotfiles - https://github.com/webpro/awesome-dotfiles
 .gitconfig = 
 
 
-```markdown
+```gitignore
 # This is Git's per-user configuration file.
 [user]
 	name = velosobr
